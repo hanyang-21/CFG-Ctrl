@@ -1,0 +1,38 @@
+# CFG-Ctrl: Stabilized Classifier-Free Guidance via Control Theory
+# ----------------------------------------------------------------
+# Tested with: Python 3.10, CUDA 12.x, Linux (x86_64)
+#
+# Quick install:
+#   conda env create -f environment.yml
+#   conda activate cfg-ctrl
+#
+# Key version constraints:
+#   - diffsynth==1.1.9    : DiffSynth-Studio base framework
+#   - transformers>=4.49  : Qwen2_5_VLModel (>=4.49) + PretrainedConfig compat
+#   - torch>=2.0          : CUDA support for diffusion models
+name: cfg-ctrl
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # --- Core: DiffSynth-Studio ---
+      - diffsynth==1.1.9
+      # --- transformers: >=4.49 required for Qwen2_5_VLModel + PretrainedConfig ---
+      - transformers>=4.49.0
+      # --- PyTorch (CUDA 12.x) ---
+      - torch>=2.0.0
+      - torchvision
+      # --- DiffSynth-Studio dependencies ---
+      - accelerate
+      - einops
+      - safetensors
+      - sentencepiece
+      - protobuf
+      - modelscope
+      - ftfy
+      - imageio
+      - imageio-ffmpeg
+      - pandas
+      - peft

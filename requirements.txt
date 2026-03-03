@@ -1,0 +1,4 @@
+# Core: DiffSynth-Studio
+diffsynth==1.1.9
+# transformers>=4.49 required for Qwen2_5_VLModel + PretrainedConfig compat
+transformers>=4.49.0

@@ -1,0 +1,50 @@
+# Model weights
+models/
+
+# Media outputs
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.gif
+*.avi
+*.mov
+*.webp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & temp
+*.log
+outputs/
+results/
+
+# Bash
+*.sh
