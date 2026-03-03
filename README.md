@@ -1,16 +1,17 @@
 <div align="center">
 
-<h2>CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance</h2>
+<h1>CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance</h1>
 
-<p><b>CVPR 2026</b></p>
+<h3 align="center">CVPR 2026</h3>
 
 Hanyang Wang*, Yiyang Liu*, Jiawei Chi, Fangfu Liu, Ran Xue, Yueqi Duan†<br>
 Tsinghua University<br>
 <sub>* Equal contribution &nbsp;&nbsp; † Corresponding author</sub>
 
-<a href='https://github.com/MaxLiuyy/CFG-Ctrl'><img src='https://img.shields.io/badge/GitHub-Repo-blue'></a>
-<a href='https://github.com/MaxLiuyy/CFG-Ctrl/blob/main/LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-green.svg'></a>
-<!-- <a href='https://arxiv.org/abs/XXXX.XXXXX'><img src='https://img.shields.io/badge/ArXiv-XXXX.XXXXX-red'></a> -->
+<a href='https://hanyang-21.github.io/CFG-Ctrl'><img src='https://img.shields.io/badge/Project-Website-green.svg'></a>
+<a href='https://arxiv.org/abs/XXXX.XXXXX'><img src='https://img.shields.io/badge/ArXiv-XXXX.XXXXX-red'></a>
+<a href='https://github.com/hanyang-21/CFG-Ctrl/blob/main/LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-green.svg'></a>
+
 
 </div>
 
