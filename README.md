@@ -10,7 +10,7 @@ Tsinghua University<br>
 
 <a href='https://github.com/MaxLiuyy/CFG-Ctrl'><img src='https://img.shields.io/badge/GitHub-Repo-blue'></a>
 <a href='https://github.com/MaxLiuyy/CFG-Ctrl/blob/main/LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-green.svg'></a>
-<!-- <a href='https://arxiv.org/abs/XXXX.XXXXX'><img src='https://img.shields.io/badge/ArXiv-XXXX.XXXXX-red'></a> -->
+<a href='https://arxiv.org/abs/2603.03281'><img src='https://img.shields.io/badge/ArXiv-2603.03281-red'></a>
 
 </div>
 
@@ -21,11 +21,12 @@ Classifier-Free Guidance (CFG) has emerged as a central approach for enhancing s
 ## Updates
 
 - `2026/02/26` Code released.
+- `2026/03/04` ArXiv paper released: [2603.03281](https://arxiv.org/abs/2603.03281)
 
 ## TODO List
 
 - [x] Release inference code and pipeline implementations
-- [ ] Release ArXiv paper
+- [x] Release ArXiv paper
 
 ## Table of Contents
 
@@ -178,7 +179,9 @@ For Image-to-Video mode, add `--input-image path/to/image.png`.
   title={CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance},
   author={Wang, Hanyang and Liu, Yiyang and Chi, Jiawei and Liu, Fangfu and Xue, Ran and Duan, Yueqi},
   booktitle={CVPR},
-  year={2026}
+  year={2026},
+  note={arXiv:2603.03281},
+  url={https://arxiv.org/abs/2603.03281}
 }
 ```
 

@@ -10,7 +10,7 @@ Tsinghua University<br>
 
 <a href='https://github.com/MaxLiuyy/CFG-Ctrl'><img src='https://img.shields.io/badge/GitHub-Repo-blue'></a>
 <a href='https://github.com/MaxLiuyy/CFG-Ctrl/blob/main/LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-green.svg'></a>
-<!-- <a href='https://arxiv.org/abs/XXXX.XXXXX'><img src='https://img.shields.io/badge/ArXiv-XXXX.XXXXX-red'></a> -->
+<a href='https://arxiv.org/abs/2603.03281'><img src='https://img.shields.io/badge/ArXiv-2603.03281-red'></a>
 
 </div>
 
@@ -21,11 +21,12 @@ Classifier-Free Guidance (CFG) 已成为基于流匹配的扩散模型中增强�
 ## 更新日志
 
 - `2026/02/26` 代码发布
+- `2026/03/04` ArXiv 论文发布：[2603.03281](https://arxiv.org/abs/2603.03281)
 
 ## TODO
 
 - [x] 发布推理代码及 pipeline 实现
-- [ ] 发布 ArXiv 论文
+- [x] 发布 ArXiv 论文
 
 ## 目录
 
@@ -167,7 +168,9 @@ python examples/wan_video_cfg_ctrl_example.py \
   title={CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance},
   author={Wang, Hanyang and Liu, Yiyang and Chi, Jiawei and Liu, Fangfu and Xue, Ran and Duan, Yueqi},
   booktitle={CVPR},
-  year={2026}
+  year={2026},
+  note={arXiv:2603.03281},
+  url={https://arxiv.org/abs/2603.03281}
 }
 ```
 
