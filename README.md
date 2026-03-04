@@ -1,16 +1,25 @@
 <div align="center">
 
-<h2>CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance</h2>
+<h1>CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance</h1>
 
-<p><b>CVPR 2026</b></p>
+<p align="center">
+  <a href="https://hanyang-21.github.io/">Hanyang Wang</a><sup>*</sup>,
+  <a href="https://github.com/MaxLiuyy">Yiyang Liu</a><sup>*</sup>,
+  <a href="https://chijw.github.io/">Jiawei Chi</a>,
+  <a href="https://liuff19.github.io/">Fangfu Liu</a>,
+  <a href="https://rosalind-bell.github.io/Xue-Ran/">Ran Xue</a>,
+  <a href="https://duanyueqi.github.io/">Yueqi Duan</a><sup>†</sup>
+  <br>
+Tsinghua University
+</p>
 
-Hanyang Wang*, Yiyang Liu*, Jiawei Chi, Fangfu Liu, Ran Xue, Yueqi Duan†<br>
-Tsinghua University<br>
 <sub>* Equal contribution &nbsp;&nbsp; † Corresponding author</sub>
 
-<a href='https://github.com/MaxLiuyy/CFG-Ctrl'><img src='https://img.shields.io/badge/GitHub-Repo-blue'></a>
-<a href='https://github.com/MaxLiuyy/CFG-Ctrl/blob/main/LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-green.svg'></a>
+<h3 align="center">CVPR 2026</h3>
+
+<a href='https://hanyang-21.github.io/CFG-Ctrl'><img src='https://img.shields.io/badge/Project-Website-green.svg'></a>
 <a href='https://arxiv.org/abs/2603.03281'><img src='https://img.shields.io/badge/ArXiv-2603.03281-red'></a>
+<a href='https://github.com/hanyang-21/CFG-Ctrl/blob/main/LICENSE'><img src='https://img.shields.io/badge/License-Apache_2.0-green.svg'></a>
 
 </div>
 
@@ -175,13 +184,14 @@ For Image-to-Video mode, add `--input-image path/to/image.png`.
 ## Citation
 
 ```bibtex
-@inproceedings{cfg-ctrl,
-  title={CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance},
-  author={Wang, Hanyang and Liu, Yiyang and Chi, Jiawei and Liu, Fangfu and Xue, Ran and Duan, Yueqi},
-  booktitle={CVPR},
-  year={2026},
-  note={arXiv:2603.03281},
-  url={https://arxiv.org/abs/2603.03281}
+@misc{wang2026cfgctrlcontrolbasedclassifierfreediffusion,
+      title={CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance}, 
+      author={Hanyang Wang and Yiyang Liu and Jiawei Chi and Fangfu Liu and Ran Xue and Yueqi Duan},
+      year={2026},
+      eprint={2603.03281},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.03281}, 
 }
 ```
 
